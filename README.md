@@ -12,8 +12,10 @@ Amazing Prime Video is setting up a hackathon in the local community in which us
 
 ## Results
 
-A =dataframe was created in Jupyter Notebook using the combined Wikipedia and Kaggle information. Where one lacked data, at times it could be filled in with information from the other dataset. In the end, the data was scrubbed down to 6,052 movies during 1990 and 2018. This was then exported to SQL Postgres for the upcoming hackathon. 
+A dataframe was created in Jupyter Notebook using the combined Wikipedia and Kaggle information. Where one lacked data, at times it could be filled in with information from the other dataset. In the end, the data was scrubbed down to 6,052 movies during 1990 and 2018. This was then exported to SQL Postgres for the upcoming hackathon. 
 
 A sample of the completed movies SQL table:
 
 ![movies_dataset](https://user-images.githubusercontent.com/108373151/187052826-5f37c5bb-9bea-4f60-a1b4-a5e3d2106cae.png)
+
+The full ratings table from MovieLens was also exported to SQL for use in the hackathon. That table contains 26,024,289 rows of data.
